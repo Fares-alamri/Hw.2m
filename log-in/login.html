@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة تسجيل دخول</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>تسجيل دخول</h2>
+    <form id="loginForm">
+
+        <label for="username">اسم المستخدم :</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">كلمة المرور</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="تسجيل دخول">
+
+    </form>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function () {
+            event.preventDefault();
+            let username = document.getElementById("username").value;  //
+            let password = document.getElementById("password").value;  //
+
+
+            if (username == "fares" && password == "fares") {
+                localStorage.setItem("username", username)
+                window.location.href = "index.html"
+            }else{
+                alert("اسم المستخدم او كلمة المرور غير صحيحة, حاول مرة اخرى")
+            }
+            
+        })
+    </script>
+</body>
+</html>

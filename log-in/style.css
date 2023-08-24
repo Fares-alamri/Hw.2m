@@ -1,0 +1,8 @@
+body{
+    background-color: #B6CDB3;
+}
+#loginForm{
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+}
