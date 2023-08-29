@@ -1,0 +1,93 @@
+body{
+    background-color: #B6CDB3;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: #F0FFF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 43%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+nav h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#task{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#finish{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#time-c{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#time-e{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#delete{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#edit{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#add{
+    border: solid #B6CDB3;
+    background-color: #69CEBC;
+    border-radius: 15px;
+    width: 170px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
