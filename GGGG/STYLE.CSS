@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#father{
+    flex-wrap: wrap;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: #47BFAF;
+}
+
+.square{
+     border: 2px solid #4e4773;
+     background-color: #4e4773;
+     border-radius: 15px;
+     width: 80vw;
+     height: 45vh;
+     margin-top: 130px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
